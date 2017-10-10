@@ -1,10 +1,11 @@
 header {
-  background-color: #9297a0;
+/*  background-color: #9297a0; */
   background-attachment: fixed;
   width: 100%;
   height: 50px;
   font-family: "Open Sans", sans-serif;
   text-align: center;
+  box-shadow: inset 0 0 0 1000px rgba(0,0,0,.8);
   /*
   border: 2px white solid;
   border-radius: 10px;
@@ -17,7 +18,7 @@ header {
   font-style: normal;
   padding-left: 50px;
   text-decoration: none;
-  color: black;
+  color: white;
   display: inline-block;
 
 }
@@ -29,9 +30,9 @@ header {
 }
 
 body {
-  /*
-  background-image: url(http://img.freepik.com/free-vector/bright-background-with-dots_1055-3132.jpg?size=338&ext=jpg) ;
-  */
+
+  background-image: url(https://vignette3.wikia.nocookie.net/overwatch/images/d/d4/Eichenwalde_screenshot_26.png) ;
+
   background-attachment: fixed;
   background-color: #3e4551;
 }
@@ -49,10 +50,12 @@ h2 {
   font-family: "Open Sans", sans-serif;
   font-size: 2em;
   text-align: center;
-  background-color: #9297a0;
+  /* background-color: #9297a0; */
   width: 20%;
   margin-left: auto;
   margin-right: auto;
+  box-shadow: inset 0 0 0 1000px rgba(0,0,0,.8);
+  color: white;
   /*
   border: 2px white solid;
   border-radius: 10px;
@@ -76,13 +79,13 @@ section {
   border-radius: 10px;
   box-shadow: 5px 5px 5px black;
   */
-  width: 60%;
+  width: 40%;
   margin: auto;
 }
 
-img {
+/* img {
 text-align: center;
-}
+} */
 
 .img {
   text-align: center;
